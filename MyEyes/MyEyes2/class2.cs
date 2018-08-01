@@ -5,9 +5,8 @@ using System.Text;
 
 namespace MyEyes2
 {
-    class class2
+    public class Class2
     {
-
         public void RunSomething()
         {
             StringBuilder sb = new StringBuilder();
@@ -15,7 +14,7 @@ namespace MyEyes2
             {
                 sb.Append($"{i} ");
             }
-            File.WriteAllText(@"c:\temp\doda.txt", sb.ToString());  
+            File.WriteAllText(@"c:\temp\doda.txt", sb.ToString());
         }
     }
 }

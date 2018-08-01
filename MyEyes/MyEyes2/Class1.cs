@@ -1,20 +1,20 @@
-﻿using System;
-
-namespace MyEyes2
+﻿namespace MyEyes2
 {
     public class XTDSIsAwesome
     {
-        public void DoSomething()
-        {
-           var me = new class2();
-
-            me.RunSomething();
-        }
-        public XTDSIsAwesome(string wowHowCoolIsIt)
+        public XTDSIsAwesome(Class2 otherClass,
+            string wowHowCoolIsIt)
         {
             WowEyeMDEMRIsSoCool = wowHowCoolIsIt;
+            AnotherClass = otherClass;
+        }
+
+        public void DoSomething()
+        {
+            AnotherClass.RunSomething();
         }
 
         public string WowEyeMDEMRIsSoCool { get; }
+        public Class2 AnotherClass { get; }
     }
 }
