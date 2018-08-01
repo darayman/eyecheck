@@ -14,7 +14,7 @@ namespace MyEyes2
             {
                 sb.Append($"{i} ");
             }
-            File.WriteAllText(@"c:\temp\doda.txt", sb.ToString());
+            File.WriteAllText(@"c:\temp\doda2.txt", sb.ToString());
         }
     }
 }
