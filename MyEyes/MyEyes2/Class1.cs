@@ -2,7 +2,13 @@
 
 namespace MyEyes2
 {
-    public class Class1
+    public class XTDSIsAwesome
     {
+        public XTDSIsAwesome(string wowHowCoolIsIt)
+        {
+            WowEyeMDEMRIsSoCool = wowHowCoolIsIt;
+        }
+
+        public string WowEyeMDEMRIsSoCool { get; }
     }
 }
